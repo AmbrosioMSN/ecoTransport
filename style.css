@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 13px;
+}
+
+.separator{
+    width: 85%;
+    border-top: 1px solid #322740;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-logo{
+    width: 150px;
+}
+
+/*  */
+.quem-somos{
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quem-somos h2{
+    font-size: 60px;
+    color: #005E31;
+    padding-bottom: 100px;
+}
+
+.image-alvo{
+    width: 500px;
+}
+
+.bloco-verde01{
+    width: 800px;
+    height: 100px;
+    margin-top: 30px ;
+    margin-bottom: 20px ;
+    background-color: #358F1D;
+    border-radius: 30px;
+}
+
+.quem-somos-body{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-right:13vw;
+    margin-left: 13vw;
+}
+
+.imgQuemSomos{
+    max-width: 60vw;
+    max-height: 50vh;
+    border-radius: 20%;
+}
+
+.text-quem-somos{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*  */
+.missao{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.missao h2{
+    font-size: 60px;
+    color: #005E31;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.missao-body{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-right:30px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.card{
+    margin: 50px;
+    width: 30rem;
+    min-height: 30rem;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.btn{
+    color: #005E31;
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    background-color: #212529;
+    gap: 50px;
+    padding: 3em;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu a {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.informacoes{
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.informacoes div a{
+    padding-right: 10px;
+}
+
+.informacoes div a i{
+    color: #6D6F72;
+    font-size: 25px;
+    padding: 0;
+    border: 1px solid transparent;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+    border-radius: 50%;
+}
+
+.informacoes div a i:hover{
+    transition: .2s;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.dados_de_contato {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    letter-spacing: 2px;
+}
+
